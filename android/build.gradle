@@ -22,7 +22,9 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 31
+    namespace "io.github.tastelessjolt.flutterdynamicicon"
+
+    compileSdkVersion 35
 
     defaultConfig {
         minSdkVersion 16
